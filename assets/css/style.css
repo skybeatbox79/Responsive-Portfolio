@@ -39,7 +39,7 @@ header {
 
 nav {
     font-size: 2em;
-    line-height: 60px;
+    line-height: 50px;
     float: right;
 }
 
@@ -181,7 +181,7 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+    width: 888px;
     display: block;
     height: 30px;
     border: solid 1px #dddddd;
@@ -269,4 +269,210 @@ h3 {
 h3:hover {
     color: rgb(105, 217, 236);
     cursor: pointer;
+}
+
+/* Media Screen (980px) */
+@media screen and (max-width: 980px) {
+    
+    #header_total {
+        margin: 0 auto;
+        margin-left: 40px;
+    }
+    
+    ul {
+        position: relative;
+        right: 100px;
+    }
+
+    /* About */
+    #contentbox {
+        width: 650px;
+        height: 420px;
+        margin-left: 40px;
+    }
+
+    #about-me {
+        width: 650px;
+    }
+
+    /* Contact */
+    #contentbox-c {
+        width: 650px;
+        margin-left: 40px;
+    }
+
+    .contact-form, #contact {
+        width: 650px;
+    }
+
+    label, #name, #email, #message {
+        width: 640px;
+        margin-left: 100px;
+    }
+
+    /* Portfolio */
+    #contentbox-p {
+        width: 650px;
+        margin-left: 40px;
+    }
+
+    #portfolio {
+        width: 650px;
+    }
+
+    .port-images {
+        width: 300px;
+        height: 220px;
+        float: left;
+        margin-bottom: 30px;
+        margin-right: 50px;
+    }
+
+    #port-images2 {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #header_total {
+        margin: 0 auto;
+        margin-left: 20px;
+    }
+
+    ul {
+        position: relative;
+        right: 250px;
+    }
+
+    /* About */
+    #contentbox {
+        width: 650px;
+        height: 420px;
+        margin-left: 20px;
+    }
+
+    #about-me {
+        width: 650px;
+    }
+
+   /* Contact */
+   #contentbox-c {
+        width: 650px;
+        margin-left: 20px;
+    }
+
+    .contact-form, #contact {
+        width: 650px;
+    }
+
+    label, #name, #email, #message {
+        width: 640px;
+        margin-left: 250px;
+    }
+
+    /* Portfolio */
+    #contentbox-p {
+        width: 650px;
+        margin-left: 20px;
+    }
+
+    #portfolio {
+        width: 650px;
+    }
+
+    .port-images {
+        width: 300px;
+        height: 220px;
+        float: left;
+        margin-bottom: 30px;
+        margin-right: 50px;
+    }
+
+    #port-images2 {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    header {
+        border-bottom: none;
+    }
+    
+    #header_total {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #header_name {
+        width: 100%;
+        float: left;
+    }
+
+    .nav_menu {
+        width: 640px;
+        background-color: #ffffff;
+        border-bottom: 2px solid #cccccc;
+        position: relative;
+        right: 1px;
+        text-align: right;
+    }
+
+    /* About */
+    #contentbox {
+        width: 88%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    #about-me {
+        width: 500px;
+    }
+
+    #my-image {
+        width: 500px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    /* Contact */
+    #contentbox-c {
+        width: 500px;
+        margin: 0 auto;
+        position: relative;
+        top: 100px;
+    }
+
+    .contact-form, #contact {
+        width: 500px;
+    }
+
+    label, #name, #email, #message {
+        width: 500px;
+        margin-left: 250px;
+    }
+
+    /* Portfolio */
+    #contentbox-p {
+        width: 300px;
+        height: 1150px;
+        margin: 0 auto;
+    }
+
+    #portfolio {
+        width: 300px;
+    }
+
+    .port-images {
+        width: 300px;
+        height: 220px;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    #port-images2 {
+        margin-right: 0px;
+    }
 }
